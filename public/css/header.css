@@ -1,0 +1,166 @@
+.logo-buscador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 21px;
+
+}
+
+.imagen-logo{
+    width: 30%;
+}
+
+.buscador {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: center
+}
+
+.buscador input {
+    padding: 9px;
+    width: 85%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.iconolupa {
+    background-color: #FFFFFF;
+    width: 15%;
+    padding: 4px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.logo-buscador-iconomano {
+    display: block;
+}
+
+.descuentos-ofertas {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconomano-texto {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.nav {
+    display: block;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.iconos {
+    width: 20px;
+    display: inline;
+}
+
+.header ul {
+    display: none;
+    font-size: 12px;
+}
+
+.items-list img {
+    max-width: 100%;
+}
+
+.burger-menu {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+i.fas.fa-bars {
+    content: "\f0c9";
+    border: solid 1px #1259c3;
+    border-radius: 4px;
+    padding: 9px;
+    background-color: #1259c3;
+    margin: 20px 0;
+}
+
+@media(min-width:361px) {
+    .buscador input {
+        width: 85%;
+        padding: 0;
+        border: solid 1px grey;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .iconolupa {
+        background-color: #FFFFFF;
+        width: 20px;
+        padding: 4px;
+        border: solid 1px grey;
+        margin-left: 2px;
+        border-radius: 0;
+    }
+
+    .logo-buscador {
+        width: 70%;
+    }
+    
+    .descuentos-ofertas{
+        width: 30%;
+    }
+
+    .logo-buscador-iconomano {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .nav ul li {
+        margin: 10px
+    }
+
+    .presentacion-productos {
+        display: block;
+    }
+
+    .header ul {
+        display: block;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 15px;
+    }
+
+    .burger-menu {
+        display: none;
+
+    }
+
+    i.fas.fa-bars {
+        display: none;
+    }
+
+}
+
+@media(min-width:769px) {
+
+    .nav {
+        padding: 15px;
+    }
+    
+}
