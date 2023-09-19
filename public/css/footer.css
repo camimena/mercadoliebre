@@ -18,3 +18,21 @@
 .footer p {
     margin-bottom: 0px;
 }
+
+@media(min-width:769px) {
+    .footer .contenedor {
+        max-width: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .footer ul{
+        display: flex;
+    }
+    
+    .footer ul li {
+        max-width: 300px;
+        padding-top: 30px;
+    }
+}
