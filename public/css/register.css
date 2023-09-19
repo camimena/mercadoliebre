@@ -24,6 +24,7 @@ img {
 
 .perfil-usuario div{
     display: flex;
+    justify-content: space-between;
 }
 
 .input-select input{
