@@ -51,7 +51,7 @@ h2 {
     position: absolute;
     right: 20px;
     top: -15px;
-    transition: transform 2s;
+    transition: transform 0.5s;
     display: none;
 }
 .product-desc-box:hover .product-delivery-icon{
