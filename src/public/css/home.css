@@ -115,18 +115,6 @@ h2 {
     
 }
 
-.contenedor img {
-    width: 2em;
-    margin-bottom: 10px;
-    display: inline;
-}
-
-.copyright {
-    padding: 20px;
-}
-
-
-
 
 @media(min-width:361px) {
 

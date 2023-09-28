@@ -18,6 +18,19 @@
 .footer p {
     margin-bottom: 0px;
 }
+.contenedor svg {
+    width: 2em;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.icono-svg:hover {
+    fill:blue;
+  }
+
+.copyright {
+    padding: 20px;
+}
 
 @media(min-width:769px) {
     .footer .contenedor {
